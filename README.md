@@ -1,15 +1,33 @@
-# -Identifying-Shopping-Trends-using-Data-Analysis
-Shopping-Trends-Analysis-Using-Python
-Analyzing shopping trends data using Python can provide valuable insights for businesses and retailers to make informed decisions. Below is a project description that outlines the key steps and components of a shopping trends data analysis project using Python. Objective: The objective of this project is to analyze shopping trends based on historical data to identify patterns, preferences, and potential opportunities for businesses and retailers.
+Shopping Trends Analysis: Exploratory Data Analysis (EDA) Project
+This project focuses on Exploratory Data Analysis (EDA) for understanding consumer shopping trends. By leveraging a dataset with detailed customer and purchase information, the analysis aims to uncover meaningful insights into purchasing behaviors, preferences, and patterns.
 
-The complete EDA Process is completed by three easy steps those are as follows-
+Features of the Dataset
+The dataset includes the following key attributes:
 
-Data Collection:- I had acquired a dataset containing relevant shopping data. This could include information such as purchase history, customer demographics, product details, and transaction timestamps. this is a csv file.
+Customer ID: Unique identifier for each customer.
+Age: Age of the customer.
+Gender: Gender of the customer (Male/Female).
+Item Purchased: The specific item bought by the customer.
+Category: The category of the purchased item.
+Purchase Amount (USD): Total cost of the purchase in USD.
+Location: Location of the purchase.
+Size: Size of the purchased item.
+Color: Color of the purchased item.
+Season: Season during which the purchase was made.
+Review Rating: Customer feedback rating for the purchased item.
+Objectives
+Perform a comprehensive EDA to identify trends and patterns in shopping behavior.
+Analyze demographic factors (e.g., age, gender) and their influence on purchasing habits.
+Examine product-related attributes like category, color, and size to uncover popular choices.
+Visualize data to highlight seasonal trends and geographical purchasing variations.
+Tools and Technologies
+Python: Programming language for data analysis.
+Pandas & NumPy: For data manipulation and numerical analysis.
+Matplotlib & Seaborn: For creating insightful visualizations.
+Jupyter Notebook: Interactive environment for documenting the analysis.
+Visuals and Key Insights
+The project uses descriptive statistics and compelling visualizations to communicate findings. Examples include:
 
-Data Cleaning and Preprocessing: The data cleaning process is one of the most important step in data analytics where we actually clean the data according to our requirement. This includes Following steps such as:
-
-Handle missing or incomplete data.
-Convert data types if needed.
-Remove duplicates.
-Standardize and normalize data.
-Exploratory Data Analysis (EDA): Here, I had Visualized data distribution using histograms, box plots, and scatter plots, Explored correlations between different variables. Identified outliers and anomalies. At the end I had mentioned the insights recovered from data so that it can help to take data driven buisiness decisions.\
+Sales trends over time.
+Product category preferences segmented by demographics.
+Distribution of review ratings across item categories.
